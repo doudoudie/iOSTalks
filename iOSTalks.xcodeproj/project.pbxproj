@@ -17,6 +17,7 @@
 		FF460B0A23029E010002E27A /* iOSTalksUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF460B0923029E010002E27A /* iOSTalksUITests.m */; };
 		FF460B1E23029E7E0002E27A /* DC_KVOObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FF460B1923029E7E0002E27A /* DC_KVOObject.m */; };
 		FF460B1F23029E7E0002E27A /* DC_KVCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FF460B1D23029E7E0002E27A /* DC_KVCObject.m */; };
+		FF460B222302CD020002E27A /* 1565693247658.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF460B212302CD010002E27A /* 1565693247658.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		FF460B1A23029E7E0002E27A /* DC_KVOObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DC_KVOObject.h; sourceTree = "<group>"; };
 		FF460B1C23029E7E0002E27A /* DC_KVCObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DC_KVCObject.h; sourceTree = "<group>"; };
 		FF460B1D23029E7E0002E27A /* DC_KVCObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DC_KVCObject.m; sourceTree = "<group>"; };
+		FF460B212302CD010002E27A /* 1565693247658.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1565693247658.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		FF460AE423029E000002E27A /* iOSTalks */ = {
 			isa = PBXGroup;
 			children = (
+				FF460B202302CD010002E27A /* images */,
 				FF460B1723029E7E0002E27A /* CodeSource */,
 				FF460AE523029E000002E27A /* AppDelegate.h */,
 				FF460AE623029E000002E27A /* AppDelegate.m */,
@@ -164,6 +167,14 @@
 				FF460B1D23029E7E0002E27A /* DC_KVCObject.m */,
 			);
 			path = KVC;
+			sourceTree = "<group>";
+		};
+		FF460B202302CD010002E27A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FF460B212302CD010002E27A /* 1565693247658.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +283,7 @@
 				FF460AF223029E010002E27A /* LaunchScreen.storyboard in Resources */,
 				FF460AEF23029E010002E27A /* Assets.xcassets in Resources */,
 				FF460AED23029E000002E27A /* Main.storyboard in Resources */,
+				FF460B222302CD020002E27A /* 1565693247658.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
