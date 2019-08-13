@@ -7,35 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FF460AC9230287CC0002E27A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF460AC0230287CC0002E27A /* Assets.xcassets */; };
-		FF460ACB230287CC0002E27A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF460AC2230287CC0002E27A /* LaunchScreen.storyboard */; };
-		FF460ACC230287CC0002E27A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF460AC4230287CC0002E27A /* Main.storyboard */; };
-		FF460ACD230287CC0002E27A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF460AC6230287CC0002E27A /* main.m */; };
-		FF460ACE230287CC0002E27A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF460AC7230287CC0002E27A /* AppDelegate.m */; };
-		FF460AD1230288B20002E27A /* DC_KVOObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FF460AD0230288B20002E27A /* DC_KVOObject.m */; };
-		FF460AD5230288EA0002E27A /* DC_KVCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FF460AD4230288EA0002E27A /* DC_KVCObject.m */; };
-		FF460AD8230289CD0002E27A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF460AD7230289CD0002E27A /* ViewController.m */; };
+		FF460AE723029E000002E27A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF460AE623029E000002E27A /* AppDelegate.m */; };
+		FF460AEA23029E000002E27A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF460AE923029E000002E27A /* ViewController.m */; };
+		FF460AED23029E000002E27A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF460AEB23029E000002E27A /* Main.storyboard */; };
+		FF460AEF23029E010002E27A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF460AEE23029E010002E27A /* Assets.xcassets */; };
+		FF460AF223029E010002E27A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF460AF023029E010002E27A /* LaunchScreen.storyboard */; };
+		FF460AF523029E010002E27A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF460AF423029E010002E27A /* main.m */; };
+		FF460AFF23029E010002E27A /* iOSTalksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF460AFE23029E010002E27A /* iOSTalksTests.m */; };
+		FF460B0A23029E010002E27A /* iOSTalksUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF460B0923029E010002E27A /* iOSTalksUITests.m */; };
+		FF460B1E23029E7E0002E27A /* DC_KVOObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FF460B1923029E7E0002E27A /* DC_KVOObject.m */; };
+		FF460B1F23029E7E0002E27A /* DC_KVCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FF460B1D23029E7E0002E27A /* DC_KVCObject.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		FF460AFB23029E010002E27A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF460ADA23029E000002E27A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF460AE123029E000002E27A;
+			remoteInfo = iOSTalks;
+		};
+		FF460B0623029E010002E27A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF460ADA23029E000002E27A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF460AE123029E000002E27A;
+			remoteInfo = iOSTalks;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		FF460AA3230287040002E27A /* iOSTalks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTalks.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF460AB4230287080002E27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF460ABF230287CC0002E27A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FF460AC0230287CC0002E27A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FF460AC3230287CC0002E27A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FF460AC5230287CC0002E27A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FF460AC6230287CC0002E27A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FF460AC7230287CC0002E27A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FF460ACF230288B20002E27A /* DC_KVOObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DC_KVOObject.h; sourceTree = "<group>"; };
-		FF460AD0230288B20002E27A /* DC_KVOObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DC_KVOObject.m; sourceTree = "<group>"; };
-		FF460AD3230288EA0002E27A /* DC_KVCObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DC_KVCObject.h; sourceTree = "<group>"; };
-		FF460AD4230288EA0002E27A /* DC_KVCObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DC_KVCObject.m; sourceTree = "<group>"; };
-		FF460AD6230289CD0002E27A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FF460AD7230289CD0002E27A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF460AE223029E000002E27A /* iOSTalks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTalks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF460AE523029E000002E27A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF460AE623029E000002E27A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF460AE823029E000002E27A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF460AE923029E000002E27A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF460AEC23029E000002E27A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF460AEE23029E010002E27A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF460AF123029E010002E27A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF460AF323029E010002E27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF460AF423029E010002E27A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF460AFA23029E010002E27A /* iOSTalksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTalksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF460AFE23029E010002E27A /* iOSTalksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSTalksTests.m; sourceTree = "<group>"; };
+		FF460B0023029E010002E27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF460B0523029E010002E27A /* iOSTalksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTalksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF460B0923029E010002E27A /* iOSTalksUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSTalksUITests.m; sourceTree = "<group>"; };
+		FF460B0B23029E010002E27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF460B1923029E7E0002E27A /* DC_KVOObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DC_KVOObject.m; sourceTree = "<group>"; };
+		FF460B1A23029E7E0002E27A /* DC_KVOObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DC_KVOObject.h; sourceTree = "<group>"; };
+		FF460B1C23029E7E0002E27A /* DC_KVCObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DC_KVCObject.h; sourceTree = "<group>"; };
+		FF460B1D23029E7E0002E27A /* DC_KVCObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DC_KVCObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FF460AA0230287040002E27A /* Frameworks */ = {
+		FF460ADF23029E000002E27A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF460AF723029E010002E27A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF460B0223029E010002E27A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,70 +84,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FF460A9A230287030002E27A = {
+		FF460AD923029E000002E27A = {
 			isa = PBXGroup;
 			children = (
-				FF460AA5230287040002E27A /* iOSTalks */,
-				FF460AA4230287040002E27A /* Products */,
+				FF460AE423029E000002E27A /* iOSTalks */,
+				FF460AFD23029E010002E27A /* iOSTalksTests */,
+				FF460B0823029E010002E27A /* iOSTalksUITests */,
+				FF460AE323029E000002E27A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FF460AA4230287040002E27A /* Products */ = {
+		FF460AE323029E000002E27A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FF460AA3230287040002E27A /* iOSTalks.app */,
+				FF460AE223029E000002E27A /* iOSTalks.app */,
+				FF460AFA23029E010002E27A /* iOSTalksTests.xctest */,
+				FF460B0523029E010002E27A /* iOSTalksUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FF460AA5230287040002E27A /* iOSTalks */ = {
+		FF460AE423029E000002E27A /* iOSTalks */ = {
 			isa = PBXGroup;
 			children = (
-				FF460ABC230287CC0002E27A /* CodeSource */,
-				FF460ABE230287CC0002E27A /* Org */,
+				FF460B1723029E7E0002E27A /* CodeSource */,
+				FF460AE523029E000002E27A /* AppDelegate.h */,
+				FF460AE623029E000002E27A /* AppDelegate.m */,
+				FF460AE823029E000002E27A /* ViewController.h */,
+				FF460AE923029E000002E27A /* ViewController.m */,
+				FF460AEB23029E000002E27A /* Main.storyboard */,
+				FF460AEE23029E010002E27A /* Assets.xcassets */,
+				FF460AF023029E010002E27A /* LaunchScreen.storyboard */,
+				FF460AF323029E010002E27A /* Info.plist */,
+				FF460AF423029E010002E27A /* main.m */,
 			);
 			path = iOSTalks;
 			sourceTree = "<group>";
 		};
-		FF460ABC230287CC0002E27A /* CodeSource */ = {
+		FF460AFD23029E010002E27A /* iOSTalksTests */ = {
 			isa = PBXGroup;
 			children = (
-				FF460AD6230289CD0002E27A /* ViewController.h */,
-				FF460AD7230289CD0002E27A /* ViewController.m */,
-				FF460AD2230288CC0002E27A /* KVC */,
-				FF460ABD230287CC0002E27A /* KVO */,
+				FF460AFE23029E010002E27A /* iOSTalksTests.m */,
+				FF460B0023029E010002E27A /* Info.plist */,
+			);
+			path = iOSTalksTests;
+			sourceTree = "<group>";
+		};
+		FF460B0823029E010002E27A /* iOSTalksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF460B0923029E010002E27A /* iOSTalksUITests.m */,
+				FF460B0B23029E010002E27A /* Info.plist */,
+			);
+			path = iOSTalksUITests;
+			sourceTree = "<group>";
+		};
+		FF460B1723029E7E0002E27A /* CodeSource */ = {
+			isa = PBXGroup;
+			children = (
+				FF460B1823029E7E0002E27A /* KVO */,
+				FF460B1B23029E7E0002E27A /* KVC */,
 			);
 			path = CodeSource;
 			sourceTree = "<group>";
 		};
-		FF460ABD230287CC0002E27A /* KVO */ = {
+		FF460B1823029E7E0002E27A /* KVO */ = {
 			isa = PBXGroup;
 			children = (
-				FF460ACF230288B20002E27A /* DC_KVOObject.h */,
-				FF460AD0230288B20002E27A /* DC_KVOObject.m */,
+				FF460B1923029E7E0002E27A /* DC_KVOObject.m */,
+				FF460B1A23029E7E0002E27A /* DC_KVOObject.h */,
 			);
 			path = KVO;
 			sourceTree = "<group>";
 		};
-		FF460ABE230287CC0002E27A /* Org */ = {
+		FF460B1B23029E7E0002E27A /* KVC */ = {
 			isa = PBXGroup;
 			children = (
-				FF460AB4230287080002E27A /* Info.plist */,
-				FF460ABF230287CC0002E27A /* AppDelegate.h */,
-				FF460AC7230287CC0002E27A /* AppDelegate.m */,
-				FF460AC0230287CC0002E27A /* Assets.xcassets */,
-				FF460AC2230287CC0002E27A /* LaunchScreen.storyboard */,
-				FF460AC4230287CC0002E27A /* Main.storyboard */,
-				FF460AC6230287CC0002E27A /* main.m */,
-			);
-			path = Org;
-			sourceTree = "<group>";
-		};
-		FF460AD2230288CC0002E27A /* KVC */ = {
-			isa = PBXGroup;
-			children = (
-				FF460AD3230288EA0002E27A /* DC_KVCObject.h */,
-				FF460AD4230288EA0002E27A /* DC_KVCObject.m */,
+				FF460B1C23029E7E0002E27A /* DC_KVCObject.h */,
+				FF460B1D23029E7E0002E27A /* DC_KVCObject.m */,
 			);
 			path = KVC;
 			sourceTree = "<group>";
@@ -116,13 +169,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FF460AA2230287040002E27A /* iOSTalks */ = {
+		FF460AE123029E000002E27A /* iOSTalks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF460AB9230287080002E27A /* Build configuration list for PBXNativeTarget "iOSTalks" */;
+			buildConfigurationList = FF460B0E23029E010002E27A /* Build configuration list for PBXNativeTarget "iOSTalks" */;
 			buildPhases = (
-				FF460A9F230287040002E27A /* Sources */,
-				FF460AA0230287040002E27A /* Frameworks */,
-				FF460AA1230287040002E27A /* Resources */,
+				FF460ADE23029E000002E27A /* Sources */,
+				FF460ADF23029E000002E27A /* Frameworks */,
+				FF460AE023029E000002E27A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -130,24 +183,68 @@
 			);
 			name = iOSTalks;
 			productName = iOSTalks;
-			productReference = FF460AA3230287040002E27A /* iOSTalks.app */;
+			productReference = FF460AE223029E000002E27A /* iOSTalks.app */;
 			productType = "com.apple.product-type.application";
+		};
+		FF460AF923029E010002E27A /* iOSTalksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF460B1123029E010002E27A /* Build configuration list for PBXNativeTarget "iOSTalksTests" */;
+			buildPhases = (
+				FF460AF623029E010002E27A /* Sources */,
+				FF460AF723029E010002E27A /* Frameworks */,
+				FF460AF823029E010002E27A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF460AFC23029E010002E27A /* PBXTargetDependency */,
+			);
+			name = iOSTalksTests;
+			productName = iOSTalksTests;
+			productReference = FF460AFA23029E010002E27A /* iOSTalksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF460B0423029E010002E27A /* iOSTalksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF460B1423029E010002E27A /* Build configuration list for PBXNativeTarget "iOSTalksUITests" */;
+			buildPhases = (
+				FF460B0123029E010002E27A /* Sources */,
+				FF460B0223029E010002E27A /* Frameworks */,
+				FF460B0323029E010002E27A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF460B0723029E010002E27A /* PBXTargetDependency */,
+			);
+			name = iOSTalksUITests;
+			productName = iOSTalksUITests;
+			productReference = FF460B0523029E010002E27A /* iOSTalksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FF460A9B230287030002E27A /* Project object */ = {
+		FF460ADA23029E000002E27A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "黄登登";
 				TargetAttributes = {
-					FF460AA2230287040002E27A = {
+					FF460AE123029E000002E27A = {
 						CreatedOnToolsVersion = 10.2.1;
+					};
+					FF460AF923029E010002E27A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FF460AE123029E000002E27A;
+					};
+					FF460B0423029E010002E27A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FF460AE123029E000002E27A;
 					};
 				};
 			};
-			buildConfigurationList = FF460A9E230287030002E27A /* Build configuration list for PBXProject "iOSTalks" */;
+			buildConfigurationList = FF460ADD23029E000002E27A /* Build configuration list for PBXProject "iOSTalks" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -155,65 +252,110 @@
 				en,
 				Base,
 			);
-			mainGroup = FF460A9A230287030002E27A;
-			productRefGroup = FF460AA4230287040002E27A /* Products */;
+			mainGroup = FF460AD923029E000002E27A;
+			productRefGroup = FF460AE323029E000002E27A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FF460AA2230287040002E27A /* iOSTalks */,
+				FF460AE123029E000002E27A /* iOSTalks */,
+				FF460AF923029E010002E27A /* iOSTalksTests */,
+				FF460B0423029E010002E27A /* iOSTalksUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FF460AA1230287040002E27A /* Resources */ = {
+		FF460AE023029E000002E27A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF460ACC230287CC0002E27A /* Main.storyboard in Resources */,
-				FF460AC9230287CC0002E27A /* Assets.xcassets in Resources */,
-				FF460ACB230287CC0002E27A /* LaunchScreen.storyboard in Resources */,
+				FF460AF223029E010002E27A /* LaunchScreen.storyboard in Resources */,
+				FF460AEF23029E010002E27A /* Assets.xcassets in Resources */,
+				FF460AED23029E000002E27A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF460AF823029E010002E27A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF460B0323029E010002E27A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FF460A9F230287040002E27A /* Sources */ = {
+		FF460ADE23029E000002E27A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF460AD5230288EA0002E27A /* DC_KVCObject.m in Sources */,
-				FF460ACD230287CC0002E27A /* main.m in Sources */,
-				FF460AD1230288B20002E27A /* DC_KVOObject.m in Sources */,
-				FF460ACE230287CC0002E27A /* AppDelegate.m in Sources */,
-				FF460AD8230289CD0002E27A /* ViewController.m in Sources */,
+				FF460B1F23029E7E0002E27A /* DC_KVCObject.m in Sources */,
+				FF460AEA23029E000002E27A /* ViewController.m in Sources */,
+				FF460AF523029E010002E27A /* main.m in Sources */,
+				FF460B1E23029E7E0002E27A /* DC_KVOObject.m in Sources */,
+				FF460AE723029E000002E27A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF460AF623029E010002E27A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF460AFF23029E010002E27A /* iOSTalksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF460B0123029E010002E27A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF460B0A23029E010002E27A /* iOSTalksUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		FF460AC2230287CC0002E27A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF460AC3230287CC0002E27A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		FF460AFC23029E010002E27A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF460AE123029E000002E27A /* iOSTalks */;
+			targetProxy = FF460AFB23029E010002E27A /* PBXContainerItemProxy */;
 		};
-		FF460AC4230287CC0002E27A /* Main.storyboard */ = {
+		FF460B0723029E010002E27A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF460AE123029E000002E27A /* iOSTalks */;
+			targetProxy = FF460B0623029E010002E27A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF460AEB23029E000002E27A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FF460AC5230287CC0002E27A /* Base */,
+				FF460AEC23029E000002E27A /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF460AF023029E010002E27A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF460AF123029E010002E27A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FF460AB7230287080002E27A /* Debug */ = {
+		FF460B0C23029E010002E27A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -272,7 +414,7 @@
 			};
 			name = Debug;
 		};
-		FF460AB8230287080002E27A /* Release */ = {
+		FF460B0D23029E010002E27A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -325,13 +467,13 @@
 			};
 			name = Release;
 		};
-		FF460ABA230287080002E27A /* Debug */ = {
+		FF460B0F23029E010002E27A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RA3S34K4EA;
-				INFOPLIST_FILE = iOSTalks/Org/Info.plist;
+				INFOPLIST_FILE = iOSTalks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -342,13 +484,13 @@
 			};
 			name = Debug;
 		};
-		FF460ABB230287080002E27A /* Release */ = {
+		FF460B1023029E010002E27A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RA3S34K4EA;
-				INFOPLIST_FILE = iOSTalks/Org/Info.plist;
+				INFOPLIST_FILE = iOSTalks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -359,28 +501,120 @@
 			};
 			name = Release;
 		};
+		FF460B1223029E010002E27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RA3S34K4EA;
+				INFOPLIST_FILE = iOSTalksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dachen.iOSTalks.iOSTalksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSTalks.app/iOSTalks";
+			};
+			name = Debug;
+		};
+		FF460B1323029E010002E27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RA3S34K4EA;
+				INFOPLIST_FILE = iOSTalksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dachen.iOSTalks.iOSTalksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSTalks.app/iOSTalks";
+			};
+			name = Release;
+		};
+		FF460B1523029E010002E27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RA3S34K4EA;
+				INFOPLIST_FILE = iOSTalksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dachen.iOSTalks.iOSTalksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSTalks;
+			};
+			name = Debug;
+		};
+		FF460B1623029E010002E27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RA3S34K4EA;
+				INFOPLIST_FILE = iOSTalksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dachen.iOSTalks.iOSTalksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSTalks;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FF460A9E230287030002E27A /* Build configuration list for PBXProject "iOSTalks" */ = {
+		FF460ADD23029E000002E27A /* Build configuration list for PBXProject "iOSTalks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF460AB7230287080002E27A /* Debug */,
-				FF460AB8230287080002E27A /* Release */,
+				FF460B0C23029E010002E27A /* Debug */,
+				FF460B0D23029E010002E27A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF460AB9230287080002E27A /* Build configuration list for PBXNativeTarget "iOSTalks" */ = {
+		FF460B0E23029E010002E27A /* Build configuration list for PBXNativeTarget "iOSTalks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF460ABA230287080002E27A /* Debug */,
-				FF460ABB230287080002E27A /* Release */,
+				FF460B0F23029E010002E27A /* Debug */,
+				FF460B1023029E010002E27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF460B1123029E010002E27A /* Build configuration list for PBXNativeTarget "iOSTalksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF460B1223029E010002E27A /* Debug */,
+				FF460B1323029E010002E27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF460B1423029E010002E27A /* Build configuration list for PBXNativeTarget "iOSTalksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF460B1523029E010002E27A /* Debug */,
+				FF460B1623029E010002E27A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FF460A9B230287030002E27A /* Project object */;
+	rootObject = FF460ADA23029E000002E27A /* Project object */;
 }

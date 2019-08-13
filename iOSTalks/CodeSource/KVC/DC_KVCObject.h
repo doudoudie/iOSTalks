@@ -12,9 +12,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DC_KVCObject : NSObject
 
-@property (nonatomic,assign) NSInteger value;
-
-- (void)printObjctInfo;
 
 @end
 

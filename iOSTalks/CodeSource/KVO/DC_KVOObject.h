@@ -12,6 +12,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DC_KVOObject : NSObject
 
+@property (nonatomic,strong) NSString *name;
+
+- (void)printObjctInfo:(NSString *)pre_info;
+
+
+
 @end
 
 NS_ASSUME_NONNULL_END
