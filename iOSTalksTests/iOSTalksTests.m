@@ -9,9 +9,10 @@
 #import <XCTest/XCTest.h>
 
 #import "DC_KVOObject.h"
+#import "DC_KVCObject.h"
 
 @interface iOSTalksTests : XCTestCase
-
+@property (nonatomic,strong) DC_KVCObject *dcObject;
 @end
 
 @implementation iOSTalksTests
@@ -51,6 +52,38 @@
     [dcObject removeObserver:self forKeyPath:@"value"];
     //打印isa和superclass
     [dcObject printObjctInfo:@"监听移除后"];
+}
+
+- (void)testKVCExample {
+    // This is an example of a functional test case.
+    DC_KVCObject *dcObject = [[DC_KVCObject alloc] initDC_KVCObjectWith:@"登登" title:@"iOS 开发"];
+    // 属性值的存取
+    [dcObject setValue:@"iOS开发Leader" forKey:@"title"];
+    NSString *title = [dcObject valueForKey:@"title"];
+    NSLog(@"%@",title);
+    //私有熟悉的存取
+    [dcObject setValue:@"开发部" forKey:@"dept"];
+    NSString *dept = [dcObject valueForKey:@"dept"];
+    NSLog(@"%@",dept);
+}
+
+- (void)testKVCForKeyPathExample {
+    // This is an example of a functional test case.
+    self.dcObject = [[DC_KVCObject alloc] initDC_KVCObjectWith:@"登登" title:@"iOS 开发"];
+    // 属性值的存取
+    [self.dcObject setValue:@"iOS开发Leader_" forKeyPath:@"title"];
+    NSLog(@"属性值：%@",self.dcObject.title);
+    NSString *title_ = [self.dcObject valueForKeyPath:@"title"];
+    NSLog(@"valueForKeyPath:%@",title_);
+    
+    [self setValue:@"iOS开发Leader" forKeyPath:@"dcObject.title"];
+    NSLog(@"属性值：%@",self.dcObject.title);
+    NSString *title = [self valueForKeyPath:@"dcObject.title"];
+    NSLog(@"valueForKeyPath:%@",title);
+    //私有熟悉的存取
+    [self setValue:@"开发部" forKeyPath:@"dcObject.dept"];
+    NSString *dept = [self valueForKeyPath:@"dcObject.dept"];
+    NSLog(@"%@",dept);
 }
 
 -(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSString *,id> *)change context:(void *)context{

@@ -7,10 +7,22 @@
 //
 
 #import "DC_KVCObject.h"
-#import <objc/runtime.h>
+
+@interface DC_KVCObject ()
+@property (nonatomic,strong) NSString *dept;
+@end
 
 @implementation DC_KVCObject
 
-
+- (instancetype)initDC_KVCObjectWith:(NSString *)name title:(NSString *)title
+{
+    self = [super init];
+    if (self) {
+        _name = name;
+        _title = title;
+    }
+    
+    return self;
+}
 
 @end

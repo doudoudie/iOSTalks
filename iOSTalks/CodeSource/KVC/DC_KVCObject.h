@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DC_KVCObject : NSObject
 
+- (instancetype)initDC_KVCObjectWith:(NSString *)name title:(NSString *)title;
+@property (nonatomic,strong) NSString *name;
+@property (nonatomic,strong,readonly) NSString *title;
 
 @end
 

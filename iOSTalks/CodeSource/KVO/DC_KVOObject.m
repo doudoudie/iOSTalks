@@ -9,16 +9,35 @@
 #import "DC_KVOObject.h"
 #import <objc/runtime.h>
 
+@interface DC_KVOObject ()
+@property (nonatomic,assign) NSInteger age;
+@end
+
 @implementation DC_KVOObject
 
 - (void)printObjctInfo:(NSString *)pre_info{
     NSLog(@"%@:isa %@ - supper class %@",pre_info,NSStringFromClass(object_getClass(self)),class_getSuperclass(object_getClass(self)));
 }
 
-//- (void)setName:(NSString *)newName {
-//    [self willChangeValueForKey:@"name"];
-//    [super setValue:newName forKey:@"name"];
-//    [self didChangeValueForKey:@"name"];
-//}
+// 重写set方法手动调用KVO
+- (void)setName:(NSString *)name {
+    if(![name isEqualToString:_name]){
+        [self willChangeValueForKey:@"name"];
+        _name = name;
+        [self didChangeValueForKey:@"name"];
+    }
+}
+
+
+// 重写automaticallyNotifiesObserversForKey方法判断是否放弃对key的自动KVO监听
++ (BOOL)automaticallyNotifiesObserversForKey:(NSString *)key{
+    BOOL automatic = NO;
+    if ([key isEqualToString:@"keyPath"]) {
+        automatic = NO;
+    }else {
+        automatic = [super automaticallyNotifiesObserversForKey:key];
+    }
+    return automatic;
+}
 
 @end
