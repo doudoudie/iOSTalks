@@ -9,7 +9,16 @@
 #import "DC_KVCObject.h"
 
 @interface DC_KVCObject ()
-@property (nonatomic,strong) NSString *dept;
+{
+    NSString *_dept;
+//    NSString *_isDept;
+//    NSString *dept;
+//    NSString *isDept;
+    NSString *isSex;
+}
+
+//@property (nonatomic,strong) NSString *dept;
+
 @end
 
 @implementation DC_KVCObject
@@ -23,6 +32,32 @@
     }
     
     return self;
+}
+
++ (BOOL)accessInstanceVariablesDirectly {
+    // Make sure KVC doesn't use instance variables.
+    return YES;
+}
+
+//- (void)setDept:(NSString *)dept {
+//    _dept = dept;
+//    NSLog(@"setDept被调用");
+//}
+
+//- (void)_setDept:(NSString *)dept {
+//     _dept = dept;
+//     NSLog(@"_setDept被调用");
+//}
+
+- (void)willChangeValueForKey:(NSString *)key{
+    [super willChangeValueForKey:key];
+    NSLog(@"willChangeValueForKey:%@",key);
+}
+
+- (void)didChangeValueForKey:(NSString *)key{
+    NSLog(@"didChangeValueForKey:%@ -----begin",key);
+    [super didChangeValueForKey:key];
+    NSLog(@"didChangeValueForKey:%@ -----end",key);
 }
 
 @end
