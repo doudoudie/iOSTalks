@@ -10,10 +10,10 @@
 
 @interface DC_KVCObject ()
 {
-    NSString *_dept;
+//    NSString *_dept;
 //    NSString *_isDept;
 //    NSString *dept;
-//    NSString *isDept;
+    NSString *isDept;
     NSString *isSex;
 }
 
@@ -44,10 +44,24 @@
 //    NSLog(@"setDept被调用");
 //}
 
+//- (NSString *)getDept {
+//    NSLog(@"getDept被调用");
+//    return _dept;
+//}
+
 //- (void)_setDept:(NSString *)dept {
 //     _dept = dept;
 //     NSLog(@"_setDept被调用");
 //}
+
+//- (NSString *)_getDept {
+//    NSLog(@"_getDept被调用");
+//    return _dept;
+//}
+
+- (NSString *) _dept{
+    return isDept;
+}
 
 - (void)willChangeValueForKey:(NSString *)key{
     [super willChangeValueForKey:key];

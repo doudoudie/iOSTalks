@@ -62,7 +62,8 @@
 //    NSString *title = [dcObject valueForKey:@"title"];
 //    NSLog(@"%@",title);
     //私有熟悉的存取
-    [dcObject addObserver:self forKeyPath:@"dept" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:nil];
+    
+    //[dcObject addObserver:self forKeyPath:@"dept" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:nil];
 
     [dcObject setValue:@"开发部" forKey:@"dept"]; // 我们在通过KVC在给成员变量赋值的时候 会触发willChangeValueForKey:,willChangeValueForKey: 所以也会触发KVO
     NSString *dept = [dcObject valueForKey:@"dept"];

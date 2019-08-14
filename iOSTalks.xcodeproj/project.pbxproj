@@ -11,6 +11,7 @@
 		FF1AC38E23043CB200E59C9E /* kvc_setValue2.png in Resources */ = {isa = PBXBuildFile; fileRef = FF1AC38C23043CB200E59C9E /* kvc_setValue2.png */; };
 		FF1AC39023043DA800E59C9E /* kvc_setValue3.png in Resources */ = {isa = PBXBuildFile; fileRef = FF1AC38F23043DA800E59C9E /* kvc_setValue3.png */; };
 		FF1AC39223043FBD00E59C9E /* kvc_setValue5.png in Resources */ = {isa = PBXBuildFile; fileRef = FF1AC39123043FBD00E59C9E /* kvc_setValue5.png */; };
+		FF1AC39423044C9000E59C9E /* kvc_valuefor.png in Resources */ = {isa = PBXBuildFile; fileRef = FF1AC39323044C8F00E59C9E /* kvc_valuefor.png */; };
 		FF460AE723029E000002E27A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF460AE623029E000002E27A /* AppDelegate.m */; };
 		FF460AEA23029E000002E27A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF460AE923029E000002E27A /* ViewController.m */; };
 		FF460AED23029E000002E27A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF460AEB23029E000002E27A /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		FF1AC38C23043CB200E59C9E /* kvc_setValue2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kvc_setValue2.png; sourceTree = "<group>"; };
 		FF1AC38F23043DA800E59C9E /* kvc_setValue3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kvc_setValue3.png; sourceTree = "<group>"; };
 		FF1AC39123043FBD00E59C9E /* kvc_setValue5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kvc_setValue5.png; sourceTree = "<group>"; };
+		FF1AC39323044C8F00E59C9E /* kvc_valuefor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kvc_valuefor.png; sourceTree = "<group>"; };
 		FF460AE223029E000002E27A /* iOSTalks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTalks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF460AE523029E000002E27A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FF460AE623029E000002E27A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 				FF1AC38C23043CB200E59C9E /* kvc_setValue2.png */,
 				FF1AC38F23043DA800E59C9E /* kvc_setValue3.png */,
 				FF1AC39123043FBD00E59C9E /* kvc_setValue5.png */,
+				FF1AC39323044C8F00E59C9E /* kvc_valuefor.png */,
 				FF460B212302CD010002E27A /* 1565693247658.jpg */,
 			);
 			path = images;
@@ -297,6 +300,7 @@
 				FF1AC39023043DA800E59C9E /* kvc_setValue3.png in Resources */,
 				FF1AC38E23043CB200E59C9E /* kvc_setValue2.png in Resources */,
 				FF1AC38D23043CB200E59C9E /* kvc_setValue.png in Resources */,
+				FF1AC39423044C9000E59C9E /* kvc_valuefor.png in Resources */,
 				FF1AC39223043FBD00E59C9E /* kvc_setValue5.png in Resources */,
 				FF460AED23029E000002E27A /* Main.storyboard in Resources */,
 				FF460B222302CD020002E27A /* 1565693247658.jpg in Resources */,
