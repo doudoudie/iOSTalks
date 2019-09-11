@@ -6,3 +6,16 @@ iOS你说我听 - 记录学习过程中的细节和思考
 2、[KVC应用小结](https://github.com/doudoudie/iOSTalks/wiki/说烂的KVC系列之常规用法)<br>
 3、[App因支付问题被拒总结](https://github.com/doudoudie/iOSTalks/wiki/App因支付问题被拒总结)<br>
 4、[WKWebView应用小结](https://github.com/doudoudie/iOSTalks/wiki/WKWebView的淫技)<br>
+5、[iOS启动性能优化实录](https://github.com/doudoudie/iOSTalks/wiki/iOS启动性能优化点滴之实况)<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
