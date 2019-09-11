@@ -12,6 +12,9 @@
 		FF1AC39023043DA800E59C9E /* kvc_setValue3.png in Resources */ = {isa = PBXBuildFile; fileRef = FF1AC38F23043DA800E59C9E /* kvc_setValue3.png */; };
 		FF1AC39223043FBD00E59C9E /* kvc_setValue5.png in Resources */ = {isa = PBXBuildFile; fileRef = FF1AC39123043FBD00E59C9E /* kvc_setValue5.png */; };
 		FF1AC39423044C9000E59C9E /* kvc_valuefor.png in Resources */ = {isa = PBXBuildFile; fileRef = FF1AC39323044C8F00E59C9E /* kvc_valuefor.png */; };
+		FF33972A23165FA3001C4C9E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FF33972923165FA3001C4C9E /* Person.m */; };
+		FF33972D23168A2B001C4C9E /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = FF33972C23168A2B001C4C9E /* Book.m */; };
+		FF33973023168A42001C4C9E /* Author.m in Sources */ = {isa = PBXBuildFile; fileRef = FF33972F23168A42001C4C9E /* Author.m */; };
 		FF460AE723029E000002E27A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF460AE623029E000002E27A /* AppDelegate.m */; };
 		FF460AEA23029E000002E27A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF460AE923029E000002E27A /* ViewController.m */; };
 		FF460AED23029E000002E27A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF460AEB23029E000002E27A /* Main.storyboard */; };
@@ -48,6 +51,12 @@
 		FF1AC38F23043DA800E59C9E /* kvc_setValue3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kvc_setValue3.png; sourceTree = "<group>"; };
 		FF1AC39123043FBD00E59C9E /* kvc_setValue5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kvc_setValue5.png; sourceTree = "<group>"; };
 		FF1AC39323044C8F00E59C9E /* kvc_valuefor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kvc_valuefor.png; sourceTree = "<group>"; };
+		FF33972823165FA3001C4C9E /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		FF33972923165FA3001C4C9E /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		FF33972B23168A2B001C4C9E /* Book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		FF33972C23168A2B001C4C9E /* Book.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		FF33972E23168A42001C4C9E /* Author.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Author.h; sourceTree = "<group>"; };
+		FF33972F23168A42001C4C9E /* Author.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Author.m; sourceTree = "<group>"; };
 		FF460AE223029E000002E27A /* iOSTalks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTalks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF460AE523029E000002E27A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FF460AE623029E000002E27A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -96,6 +105,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF33972723165F96001C4C9E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FF33972823165FA3001C4C9E /* Person.h */,
+				FF33972923165FA3001C4C9E /* Person.m */,
+				FF33972B23168A2B001C4C9E /* Book.h */,
+				FF33972C23168A2B001C4C9E /* Book.m */,
+				FF33972E23168A42001C4C9E /* Author.h */,
+				FF33972F23168A42001C4C9E /* Author.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		FF460AD923029E000002E27A = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +177,7 @@
 		FF460B1723029E7E0002E27A /* CodeSource */ = {
 			isa = PBXGroup;
 			children = (
+				FF33972723165F96001C4C9E /* Common */,
 				FF460B1823029E7E0002E27A /* KVO */,
 				FF460B1B23029E7E0002E27A /* KVC */,
 			);
@@ -328,10 +351,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF33972A23165FA3001C4C9E /* Person.m in Sources */,
 				FF460B1F23029E7E0002E27A /* DC_KVCObject.m in Sources */,
 				FF460AEA23029E000002E27A /* ViewController.m in Sources */,
 				FF460AF523029E010002E27A /* main.m in Sources */,
 				FF460B1E23029E7E0002E27A /* DC_KVOObject.m in Sources */,
+				FF33972D23168A2B001C4C9E /* Book.m in Sources */,
+				FF33973023168A42001C4C9E /* Author.m in Sources */,
 				FF460AE723029E000002E27A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,9 +10,9 @@
 
 @interface DC_KVCObject ()
 {
-//    NSString *_dept;
-//    NSString *_isDept;
-//    NSString *dept;
+    NSString *_dept;
+    NSString *_isDept;
+    NSString *dept;
     NSString *isDept;
     NSString *isSex;
 }
@@ -59,8 +59,13 @@
 //    return _dept;
 //}
 
-- (NSString *) _dept{
-    return isDept;
+//- (NSString *) _dept{
+//    return _dept;
+//}
+
+
+- (id)objectInNameAtIndex:(NSUInteger)index {
+    return _name;
 }
 
 - (void)willChangeValueForKey:(NSString *)key{

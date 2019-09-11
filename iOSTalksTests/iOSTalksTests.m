@@ -58,16 +58,21 @@
     // This is an example of a functional test case.
     DC_KVCObject *dcObject = [[DC_KVCObject alloc] initDC_KVCObjectWith:@"登登" title:@"iOS 开发"];
     // 属性值的存取
-//    [dcObject setValue:@"iOS开发Leader" forKey:@"title"];
-//    NSString *title = [dcObject valueForKey:@"title"];
-//    NSLog(@"%@",title);
+    //[dcObject setValue:@"iOS开发Leader" forKey:@"title"];
+    //NSString *title = [dcObject valueForKey:@"title"];
+    //NSLog(@"%@",title);
     //私有熟悉的存取
     
     //[dcObject addObserver:self forKeyPath:@"dept" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:nil];
 
+    [dcObject setValuesForKeysWithDictionary:@{@"dept":@"开发",@"title":@"也是开发"}];
+    
     [dcObject setValue:@"开发部" forKey:@"dept"]; // 我们在通过KVC在给成员变量赋值的时候 会触发willChangeValueForKey:,willChangeValueForKey: 所以也会触发KVO
     NSString *dept = [dcObject valueForKey:@"dept"];
     NSLog(@"%@",dept);
+    
+    NSDictionary *dict = [dcObject dictionaryWithValuesForKeys:@[@"title",@"dept"]];
+    NSLog(@"%@",dict);
 }
 
 - (void)testKVCForKeyPathExample {
@@ -87,6 +92,7 @@
     [self setValue:@"开发部" forKeyPath:@"dcObject.dept"];
     NSString *dept = [self valueForKeyPath:@"dcObject.dept"];
     NSLog(@"%@",dept);
+    
 }
 
 -(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSString *,id> *)change context:(void *)context{
