@@ -11,6 +11,8 @@
 @interface Book ()
 @property (nonatomic,copy) NSString *bookId;
 @property (nonatomic,copy) NSString *bookName;
+@property (nonatomic,assign,readonly) BOOL isNew;
+@property (nonatomic,assign) CGSize cgSize;
 
 @property (nonatomic,strong) Author *author;
 
@@ -52,6 +54,10 @@
         return @{@"name":_author.name};
     }
     return [super valueForKey:key];
+}
+
+- (NSString *)getBookName {
+    return _bookName;
 }
 
 // 异常错误处理

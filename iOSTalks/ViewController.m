@@ -104,18 +104,23 @@
     
     NSLog(@"%@",[book mutableArrayValueForKey:@"chapters"]);
     
+    //[book valueForKey:NSStringFromSelector(@selector(getBookName))];
+    [book valueForKey:@"bookName"];
+    
     [book addChaptersObject:@"五"];
     NSLog(@"%@",[book objectInChaptersAtIndex:0]);
     
     NSLog(@"编号：%@, 书名：%@ ,作者：%@",[book valueForKey:@"bookId"],[book valueForKey:@"bookName"],[book valueForKeyPath:@"author.name"]);
     [book setValue:@"PythonBook" forKey:@"bookName"];
     
+    [book setValue:@(1) forKey:@"isNew"];
+    
     NSDictionary *dict = [book dictionaryWithValuesForKeys:@[@"bookId",@"bookName",@"author"]];
     NSLog(@"dictionaryWithValuesForKeys: %@",dict);
     
     NSError *error;
     NSString *name = @"登登";
-    if(![book validateValue:&name forKey:@"bookNamekk" error:&error])
+    if([book validateValue:&name forKey:@"bookNamekk" error:&error])
     {
         NSLog(@"%@", error);
     }
